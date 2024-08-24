@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyLo.</title>
+    <link rel="icon" href="/icons/projectIcon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="up_btn" id="upButton">
+        <i class="fa-solid fa-up-long" id="icon"></i>
+    </div>
+
+
+    <div id="load" class="loader">
+        <div class="spinner spinner-1">
+            <i class="fa-solid fa-house loderLogo"></i>
+        </div>
+    </div>
+    <div class="main-container">
+        <header class="header" id="header">
+            <nav class="nav">
+                <div class="logo">
+                    <i class="fa-solid fa-house"></i>
+                    <h1 class="h1">EasyLo.</h1>
+
+                </div>
+                <div class="menu">
+                    <div class="nav-container">
+                        <ul class="nav__links" type="none">
+                            <li> <a class="nav-item" href="#header" id="home"> Home</a></li>
+                            <li> <a class="nav-item" href="#how_we_are" id="about">About</a></li>
+                            <li> <a class="nav-item" href="#servicesId" id="services">Services</a></li>
+                            <li> <a class="nav-item" href="#testimonial" id="reviwes">Reviwes</a></li>
+                            <li> <a class="nav-item" href="#blogId" id="blog">Blog</a></li>
+                            <li> <a class="nav-item" href="#contactId" id="contact">Contact</a></li>
+                        </ul>
+
+                        <div class="div3">
+                            <button class="btn1">Apply For Loan</button>
+                        </div>
+                    </div>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox">
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+
+                        <div class="menu__box">
+                            <div class="logo">
+                                <i class="fa-solid fa-house burger_menu_home"></i>
+                                <h1 class="h1 burger_menu_hedding">EasyLo.</h1>
+
+                            </div>
+                            <ul class="items__container">
+                                <li> <a class="burger_menu_linkes" href="#header" id="homeTwo"> Home</a></li>
+                                <li> <a class="burger_menu_linkes" href="#how_we_are" id="aboutTwo">About</a></li>
+                                <li> <a class="burger_menu_linkes" href="#servicesId" id="servicesTwo">Services</a></li>
+                                <li> <a class="burger_menu_linkes" href="#testimonial" id="reviwesTwo">Reviwes</a></li>
+                                <li> <a class="burger_menu_linkes" href="#blogId" id="blogTwo">Blog</a></li>
+                                <li> <a class="burger_menu_linkes" href="#contactId" id="contactTwo">Contact</a></li>
+
+                                <div class="div3">
+                                    <button class="btn1 burger_menu_btn">Apply For Loan</button>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="box1">
+                <div id="box">
+                    <h1 id="h1">The simple online home loan</h1>
+                    <p class="p1">Financial uncertainity is hard on <br> employees, and causes even.
+
+                    </p>
+                    <button class="btn2">OUR SERVICES</button>
+                </div>
+
+            </div>
+            <div class="form__main">
+                <div id="form" class="form__box">
+                    <div class="form__first_container">
+                        <h3 id="formHed" class="form__heding">How much you want?</h3>
+                        <span id="formSpn" class="form__span">We previde online instant cash loans.</span>
+                    </div>
+                    <div class="form__second_container">
+                        <span class="inputs__spans">AMOUTN YOU WANT</span>
+                        <select name="categories" id="category_id">
+                            <option hidden disabled selected>Select Category</option>
+                            <option value="first">I.Category</option>
+                            <option value="second">II.Category</option>
+                            <option value="third">III.Category</option>
+                        </select>
+                        <span class="inputs__spans">PERIOD</span>
+                        <select class="options" id="installment_id" disabled>
+                            <option hidden selected disabled> Select Period</option>
+                            <option value="year">1 Year</option>
+                            <option value="six-months" >6 Months</option>
+                            <option value="three-months" >3 Months</option>
+                        </select>
+                        <span class="pay__span">You have to pay: <strong id="total-price">$0</strong></span>
+                        <button class="form__btn">Apply Now</button>
+                        <span class="inputs__spans fark">Our service is safe and instant.</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        </div>
+        <div id="mainTwo" class="main2">
+            <h1 id="mainTwoHed" class="section2H1">Solutions For Every Business Needs.</h1>
+
+            <p id="mainTwoParag" class="p2">The brochure must grab a viewer's attention and hold it long <br> enough to deliver the pertinent information</p>
+
+        </div>
+
+        <section id="section--1">
+            <div id="boxs-dad">
+                <div class="boxs">
+                    <i id='homeIcon' class="fa-solid fa-house-chimney"></i>
+                    <span id="sec1spn" class="section1__span">Home Loan</span>
+                    <h3 id="sec1Hed" class="section1__hedding">What are my options and the cost to exercise?</h3>
+                    <p id="sec1Parag" class="paragraph__serves">
+                        Tools such as profile and text calculator show the value of your stock options and exercise cost.
+                    </p>
+                </div>
+                <div class="boxs">
+                    <i id="carIcon" class="fa-solid fa-car"></i>
+                    <span id="sec2spn" class="section1__span">Car Loan</span>
+                    <h3 id="sec2Hed" class="section1__hedding">Should I exercise now or later? How can I afford it?</h3>
+                    <p id="sec2Parag" class="paragraph__serves">Tools such as profile and text calculator show the value of your stock options and exercise cost.</p>
+                </div>
+                <div class="boxs">
+                    <i id="bagIcon" class="fa-solid fa-briefcase"></i>
+                    <span id="sec3spn" class="section1__span">Business Loan</span>
+                    <h3 id="sec3Hed" class="section1__hedding">I own my shares -can I get liquidity now without selling??</h3>
+                    <p id="sec3Parag" class="paragraph__serves" id="about__section">
+                        Tools such as profile and text calculator show the value of your stock options and exercise cost.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="main-3" id="how_we_are">
+            <div class="main-3-box1">
+                <div class="img-box">
+                    <div class="purple-box">
+                        <div class="container">
+                            <span class="box-number">99%</span>
+                            <span class="text">Customer Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-3-box2">
+                <div id="main-3-section">
+                    <h2 id="main-3-section-h1">Why Choose Us</h2>
+
+                    <p class="main3-paragraph">Tools such as profile and text calculator show the value of your stock options and exercise cost. The brochure must grab a viewer's attention and hold it long enough to deliver the pertinent information</p>
+                    <hr>
+
+                    <ul>
+                        <li class="main-3-li">Monthly recurring revenue</li>
+                        <li class="main-3-li">Customer acquisition cost</li>
+                        <li class="main-3-li">Number of customer</li>
+
+                    </ul>
+                    <button class="btn3">Learn More</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="about-us-main">
+            <h2 class="aboutUs-h1" id="servicesId">Services</h2>
+            <p class="aboutUs-p1">Tools such as profile and text calculator show the value of <br> your stock options and exercise cost.</p>
+        </div>
+        <div class="about-us-content">
+            <div class="aboutUs">
+                <div class="icon-box">
+                    <i class="fa-solid fa-hand-pointer"></i>
+                </div>
+                <h3 class="about-h">Quick Apply</h3>
+                <p class="about-p">Tools such as profile and text calculator show the value of your stock options and exercise cost. long enough to deliver the pertinent information</p>
+            </div>
+
+
+            <div class="aboutUs">
+                <div class="icon-box">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                </div>
+                <h3 class="about-h">Online & Secure</h3>
+                <p class="about-p">Tools such as profile and text calculator show the value of your stock options and exercise cost. long enough to deliver the pertinent information</p>
+            </div>
+
+
+            <div class="aboutUs">
+                <div class="icon-box">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3 class="about-h">Just Time</h3>
+                <p class="about-p">Tools such as profile and text calculator show the value of your stock options and exercise cost. long enough to deliver the pertinent information</p>
+            </div>
+
+
+            <div class="aboutUs">
+                <div class="icon-box">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <h3 class="about-h">Low Interst</h3>
+                <p class="about-p" id="testimonialId">Tools such as profile and text calculator show the value of your stock options and exercise cost. long enough to deliver the pertinent information</p>
+            </div>
+        </div>
+        <div class="testimonial__container" id="testimonial">
+            <i class="fa-solid fa-quote-left"></i>
+            <div class="testimonial">
+                <div class="parag_box">
+                    <p id="parag" class="tes_parag">I've good experience dealing with EasyLo. company, they are so professional including their services and customre care, they have so much expericnce in order to procide high quality services, I would recommend this company to all people
+                        that I know for sure, Thank you!.</p>
+                </div>
+                <div class="logo_Points">
+                    <div class="person_img_container">
+                        <div id="personImg" class="person_img"></div>
+                        <div class="person-job-name">
+                            <h3 id="personName" class="personName">Oliver Break</h3>
+                            <span id="personJob" class="personJob">Seo developer</span>
+                        </div>
+
+                    </div>
+                    <div class="pointes">
+                        <div id="firstPoint" class="point"></div>
+                        <div id="secondPoint" class="point"></div>
+                        <div id="ThirdPoint" class="point"></div>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+
+        <div class="blog__hedding" id="blogId">
+            <h2 class="blog__hed">Last News</h2>
+            <p class="blog__parag">Tools such as profile and text calculator show the value of <br> your stock options and exercise cost.</p>
+        </div>
+        <div class="blog__box">
+            <div class="blog__container">
+                <div class="blog__boxs">
+                    <div class="blog_img img1"></div>
+                    <span class="date">12 Sep 2022</span>
+                    <h3 class="blog-boxs__hed">What are my options worth and the cost exercise</h3>
+                    <p class="blogs_parags">Tools such as profile and text calculator show the value of your stock options and exercise cost.</p>
+                </div>
+                <div class="blog__boxs">
+                    <div class="blog_img img2"></div>
+                    <span class="date">23 May 2022</span>
+                    <h3 class="blog-boxs__hed">What are my options worth and the cost exercise</h3>
+                    <p class="blogs_parags">Tools such as profile and text calculator show the value of your stock options and exercise cost.</p>
+
+                </div>
+                <div class="blog__boxs">
+                    <div class="blog_img img3"></div>
+                    <span class="date">9 Auc 2021</span>
+                    <h3 class="blog-boxs__hed">What are my options worth and the cost exercise</h3>
+                    <p class="blogs_parags">Tools such as profile and text calculator show the value of your stock options and exercise cost.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer__container">
+            <div class="footer_fr1">
+                <div class="footer_logo">
+                    <i class="fa-solid fa-house footer_icon"></i>
+                    <h1 class="footer_h1">EasyLo.</h1>
+                </div>
+                <p class="fr1_parag">Tools such as profile and text calculator show the value of your stock options and exercise cost.</p>
+
+                <span class="copirght">This Website By &#169;<span class="obada">OBADA ARMANAZI  </span> <i class="fa-sharp fa-solid fa-crown"></i> </span>
+            </div>
+            <div class="footer_fr2">
+                <h4 class="menu_hedding">Quick Links</h4>
+                <ul class="footer_menu">
+                    <li class="footer_items">Work</li>
+                    <li class="footer_items">Services</li>
+                    <li class="footer_items">Products</li>
+                    <li class="footer_items">Tips & Trick</li>
+                </ul>
+            </div>
+            <div class="footer_fr3">
+                <h4 class="menu_hedding">Solution</h4>
+                <ul class="footer_menu secondMenu">
+                    <li class="footer_items">Air frieght</li>
+                    <li class="footer_items">Ocean frieght</li>
+                    <li class="footer_items">Large projects</li>
+            </div>
+            <div class="footer_fr4">
+                <h4 class="f4_hedding">Newsletter</h4>
+                <span class="f4_span">Subscribe newsletter to get updates.</span>
+                <div class="email_sub">
+                    <input class="email_typ" type="email" placeholder="Enter Your Email">
+                    <button class="footer_btn">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <div class="social__icons_box">
+                    <i class="fa-brands fa-facebook social_icons"></i>
+                    <i class="fa-brands fa-instagram social_icons"></i>
+                    <i class="fa-brands fa-youtube social_icons"></i>
+                    <i class="fa-brands fa-discord social_icons" id="contactId"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copy"> <span class="copirghtTwo">This Website By &#169;<span class="theName">OBADA ARMANAZI</span></span>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/240b0bb89f.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
